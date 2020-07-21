@@ -5,6 +5,7 @@ import { Component, OnInit, HostListener } from '@angular/core';
   templateUrl: './exercice-1.component.html'
 })
 export class Exercice1Component implements OnInit {
+  couleurAffich: string;
 
   // Ce Hostlistener permet d'écouter un événement sur l'objet window global;
   // Peut-être que cela vous sera utile pour votre directive ;)
